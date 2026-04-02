@@ -22,12 +22,45 @@ h1{
 }
 
 p {
-      font-family: 'Fire Code', monospace;
+      font-family: 'Fira Code', monospace;
 }
 
 
+.h1{
+      text-align: center;
+      color: white;
+      margin-top: 100px;
+}
+
+
+.p1{
+      margin-top: 100px;
+      text-align: center;
+      color: white ;
+      font-size: 32px;
+}
+
+
+
+.exercicios2{
+      text-align: center;
+}
+
 .exercicios{
-      font-family: 'Fire Code', monospace;
+      
+    margin-top: 350px;
+    font-family:'Fira Code', monospace;
+    display: inline-flex;
+    margin-right: 30px;
+    padding: 20px 20px;
+    background-color: #009900;
+    color: black;
+    border-radius: 8px;
+    font-weight: bolder;
+    transition: 0.3s;
+    
+    
+
 }
 
 
