@@ -3,17 +3,21 @@ include "MaiorDeIdade.html";
 
 $idade = $_POST['idade'];
 
-if ($idade >= 18){
+if (empty($idade)){
 
-    echo "Você é maior de idade";
-
-}
-
-else {
-
-    echo "você é de menor";
+    echo "Você não digitou sua idade";
 
 }
+
+elseif ($idade >=18) {
+
+    echo "você é de maior";
+
+}
+else{
+    echo "Você é de menor";
+}
+
 
 ?>
 
