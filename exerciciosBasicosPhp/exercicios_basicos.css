@@ -10,7 +10,9 @@
 
 
 body{
-    background-color: black;
+      min-height: 100vh;
+      background: linear-gradient(to bottom, black, #001a00, black);
+   
 
 
 }
@@ -47,13 +49,13 @@ p {
 }
 
 .exercicios{
-      
+    text-decoration: none;
     margin-top: 350px;
     font-family:'Fira Code', monospace;
     display: inline-flex;
     margin-right: 30px;
     padding: 20px 20px;
-    background-color: #009900;
+    background-color: #00CC00;
     color: black;
     border-radius: 8px;
     font-weight: bolder;
@@ -61,6 +63,11 @@ p {
     
     
 
+}
+
+.exercicios:hover{
+     background-color:
+      #00ff00;
 }
 
 

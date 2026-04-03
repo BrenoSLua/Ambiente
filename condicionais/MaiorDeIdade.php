@@ -11,7 +11,7 @@ if ($idade >= 18){
 
 else {
 
-    echo "vc é de meno";
+    echo "você é de menor";
 
 }
 
