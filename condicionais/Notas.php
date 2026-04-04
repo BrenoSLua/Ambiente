@@ -2,23 +2,35 @@
 
 include "Notas.html";
 
-$math = $_POST['math'];
+echo "<br>LEMBRE-SE DE PREENCHER TODOS OS CAMPOS!";
 
-$port = $_POST['port'];
+/* Só um adento pra mim lembrar, "Isset ta peguntando para o php se o valor existe da váriavel existe e se tem memória, "Floatval permite número decimal" */
+$math = isset ($_POST['math']) ? floatval ($_POST['math']) : 0 ;
 
-$ciencia = $_POST['ciencia'];
+$port = isset ($_POST['port']) ? floatval ($_POST['port']) : 0;
 
-$history = $_POST['history'];
+$ciencia = isset ($_POST['ciencia']) ? floatval ($_POST['ciencia']) : 0;
+
+$history = isset ($_POST['history']) ? floatval ($_POST['history']) : 0;
+
+
+
 
 
 
 $media = ($math + $port + $ciencia + $history) / 4;
 
 if ($media >= 7){
-    echo "Aprovado";
-}elseif($media >=4 )
+    echo "<br> <br > Você está: APROVADO";
+}elseif($media <7 && $media >=4 ){
+    echo "<br> <br>Você está de: RECUPERAÇÃO";
+}else{
 
-echo "Sua media é" . $media;
+    echo "<br> <br> Você está: REPROVADO";
+}
+
+
+echo "<br><br> Sua media é: ". $media;
 
 
 

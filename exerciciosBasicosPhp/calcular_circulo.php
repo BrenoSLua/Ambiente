@@ -2,9 +2,11 @@
 
 include "calcular_circulo.html"; 
 
+/* Só um pra mim lembrar, "Isset ta peguntando para o php se o valor existe da váriavel existe e se tem memória, "Floatval permite número decimal" */
+
 $raio = isset($_POST['raio']) ? floatval($_POST['raio']) : 0;
 
-var_dump($raio); // teste
+var_dump($raio); 
 
 $area = pi() * $raio * $raio;
 
