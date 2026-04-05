@@ -14,6 +14,8 @@ $desconto3 = 15;
 
 $desconto4 = 20;
 
+$desconto5 = 30;
+
 
 if ($valor >500 && $valor <= 1000){
 
@@ -21,9 +23,38 @@ if ($valor >500 && $valor <= 1000){
 
 
     echo "<br> Seu valor da sua compra é ". $valor . "<br><br>Valor do seu desconto é ". $desconto1. "%". 
-    "<br><br>Valor total da compra é: ". $valor - $descontoFinal1; 
+    "<br><br>Valor total da compra é: ". ($valor - $descontoFinal1); 
 
-} 
+} elseif ($valor >1000 && $valor <=5000){
+    $descontoFinal2 = $valor * ($desconto2 / 100);
+
+
+    echo "<br> Seu valor da sua compra é ". $valor . "<br><br>Valor do seu desconto é ". $desconto2. "%". 
+    "<br><br>Valor total da sua compra é ". ($valor - $descontoFinal2);
+
+
+}elseif ($valor >5000 && $valor <=10000){
+    $descontoFinal3 = $valor * ($desconto3 / 100);
+
+    echo "<br> Valor da sua compra é ". $valor . "<br><br>Valor do seu desconto é ". $desconto3. "%". 
+    "<br><br> Valor final é: ". ($valor - $descontoFinal3);
+
+
+}elseif ($valor >10000 && $valor <=30000){
+    $descontoFinal4 = $valor * ($desconto4 / 100);
+
+    echo "<br> Valor da sua compra inicia é ". $valor . "<br><br>Valor do seu desconto é ". $desconto4. "%". 
+    "<br><br> valor final é: ". ($valor - $descontoFinal4);
+
+
+}elseif ($valor >30000){
+    $descontoFinal5 = $valor * ($desconto5 / 100);
+    
+    echo "<br> Valor inical da sua compra é: ". $valor . "<br><br>Valor do seu desconto é: ". $desconto5. "%". 
+     "<br><br> valor final é: ". ($valor - $descontoFinal5);
+}else{
+    echo "Não tem desconto, esse é o seu valor: ". $valor;
+}
 
 
 
