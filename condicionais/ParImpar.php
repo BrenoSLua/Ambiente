@@ -16,7 +16,7 @@ else{
     echo "Seu número é ímpar";
 }
 
-  /* o EMPTY serve para ver se o usuário digitou algo no campo*/  
+  /* o EMPTY serve para ver se o usuário digitou algo no campo */  
     
 ?>
 
