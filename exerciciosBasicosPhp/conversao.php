@@ -16,9 +16,10 @@ $valor_yens = $real/$yens;
 
 echo "<br><br> Valor em real: $real";
 
-echo "<br> Em dólar:". number_format($valor_dolar, 2);
-echo "<br> Em euro:". number_format($valor_euro, 2);
-echo "<br> Em yens". number_format($valor_yens, 2);
+echo "<br> Em dólar: ". number_format($valor_dolar, 2);
+echo "<br> Em euro: ". number_format($valor_euro, 2);
+echo "<br> Em yens: ". number_format($valor_yens, 2);
+
 
 
 

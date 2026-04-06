@@ -42,4 +42,21 @@ p{
 }
 
 
+.label{
+    color: #00ff00;
+    font-family: 'Fira Code', monospace;
+    font-size: 20px;
+    align-items: center;
+    display: block;
+}
+
+.input{
+    background-color: white;
+    align-items: center;
+}
+
+.resultado{
+    color: white;
+}
+
 
