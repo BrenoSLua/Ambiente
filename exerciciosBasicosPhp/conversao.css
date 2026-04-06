@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, black, #001a00, black);
+   
+}
+
+
+
+
+
+h1 {
+    font-family: 'JetBrains Mono', monospace;
+     text-transform: uppercase;
+}
+
+p{
+    font-family: 'Fira Code', monospace;
+    text-transform: none;
+   
+}
+
+
+
+
+
+.titulo{
+    text-align: center;
+    color: #00ff00;
+    margin-top: 50px;
+}
+
+
+.obs{
+    color: #00ff00;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+
+

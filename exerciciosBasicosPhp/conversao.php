@@ -1,5 +1,7 @@
 <?php
 
+include"conversao.html";
+
 $real =  $_POST['real'];
 
 $dolar = 5.16;
@@ -12,7 +14,7 @@ $valor_yens = $real/$yens;
 
 
 
-echo "<br> Valor em real: $real";
+echo "<br><br> Valor em real: $real";
 
 echo "<br> Em dólar:". number_format($valor_dolar, 2);
 echo "<br> Em euro:". number_format($valor_euro, 2);

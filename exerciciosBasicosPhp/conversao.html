@@ -4,20 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link  rel="stylesheet" href="conversao.css">
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+
+
+
+
+
 </head>
 <body>
 
-    <h1>Corverta</h1>
-        <p>obs: apenas irá converter em Dólar, euro e yens.</p>
+
+    <h1 class="titulo">Corverta seu dinheiro</h1>
+        <p class="obs">OBS: apenas irá converter em Dólar, euro e yens.</p>
 
     <form action="conversao.php" method="post">
        
 
+    
+        <label class="label ">Quanto quer converter?</label>
+        <input class="input" type="number"  step="any" name="real" required>
 
-        <label>Quanto quer converter?</label>
-        <input type="number"  step="any" name="real">
-
-        <input type="submit" value="Converta">
+        <input class="enviar" type="submit" value="Converta" >
 
         
 
