@@ -55,21 +55,34 @@ p {
     display: inline-flex;
     margin-right: 30px;
     padding: 20px 20px;
-    background-color: #00CC00;
-    color: black;
+    background-color: black;
+    color: #00ff00;
     border-radius: 8px;
     font-weight: bolder;
     transition: 0.3s;
-    
+    flex-direction: column; 
     
 
 }
 
 .exercicios:hover{
-     background-color:
-      #00ff00;
+      color: black;
+     background-color: #00ff00;
+     
 }
 
+.p:hover{
+
+}
+
+
+
+.circulo{
+       width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 
 
