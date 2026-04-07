@@ -14,11 +14,11 @@ $valor_yens = $real/$yens;
 
 
 
-echo "<br><br> Valor em real: $real";
+echo "<br><br><p  class='resultado'> Valor em real: $real". "</p>";
 
-echo "<br> Em dólar: ". number_format($valor_dolar, 2);
-echo "<br> Em euro: ". number_format($valor_euro, 2);
-echo "<br> Em yens: ". number_format($valor_yens, 2);
+echo "<br><p class='resultado'> Em dólar: ". number_format($valor_dolar, 2). "</p>";
+echo "<br><p class='resultado'>Em euro: ". number_format($valor_euro, 2). "</p>";
+echo "<br><p class='resultado'>Em yens: ". number_format($valor_yens, 2). "</p>";
 
 
 
@@ -29,3 +29,4 @@ echo "<br> Em yens: ". number_format($valor_yens, 2);
 
 
 ?>
+
