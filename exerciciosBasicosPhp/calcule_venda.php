@@ -1,5 +1,7 @@
 <?php
 
+include "calcule_venda.html";
+
 $embalagem = $_POST['embalagem'];
 
 $produto = $_POST['produto'];

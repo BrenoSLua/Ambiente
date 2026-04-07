@@ -6,14 +6,14 @@ include "calcular_circulo.html";
 
 $raio = isset($_POST['raio']) ? floatval($_POST['raio']) : 0;
 
-var_dump($raio); 
+
 
 $area = pi() * $raio * $raio;
 
-echo "<br><br> A área do seu círculo é: $area";
+echo "<br><br><p class='resultado'>A área do seu círculo é: $area </p>";
 
 $diametro = 2 * $raio;
 
-echo "<br><br> Seu diâmetro é: $diametro";
+echo "<br><br><p class='resultado'>Seu diâmetro é: $diametro </p>";
 
 ?>

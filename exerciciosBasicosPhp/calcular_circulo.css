@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, black, #001a00, black);
+}
+
+
+h1{
+      font-family: 'JetBrains Mono', monospace; 
+      color: #00ff00;
+      text-align: center;
+      margin-top: 50px;
+
+}
+
+p {
+      font-family: 'Fira Code', monospace;
+
+}
+
+label{
+    margin-top: 50px;
+    justify-content: center ;
+    font-family: 'JetBrains Mono', monospace;
+    color: #00ff00;
+}
+
+.resultado{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.center{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
+.voltar{
+    margin-top: 50px;
+    font-family:'JetBrains Mono', monospace;
+    display: inline-block;
+        
+    padding: 20px 20px;
+    background-color: #00CC00;
+    color: black;
+    border-radius: 8px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.7s;
+    
+
+}
+
+.voltar:hover{
+    color: white;
+    background-color: black ;
+}

@@ -73,8 +73,14 @@ a{
     border-radius: 8px;
     font-weight: bolder;
     text-decoration: none;
+    transition: 0.7s;
     
 
+}
+
+a:hover{
+    color: white;
+    background-color: black ;
 }
 
 .center{
