@@ -28,6 +28,29 @@ p {
 }
 
 
+.voltar{
+       margin-top: 50px;
+    font-family:'JetBrains Mono', monospace;
+    display: inline-block;
+    text-align: right;
+    padding: 20px 20px;
+    background-color: #00CC00;
+    color: black;
+    border-radius: 8px;
+    font-weight: bolder;
+    transition: 0.7s;
+    text-decoration: none;
+    
+}
+
+.voltar:hover{
+      color: white;
+      background-color: black;
+}
+
+
+
+
 .h1{
       text-align: center;
       color: white;
@@ -50,7 +73,7 @@ p {
 
 .exercicios{
     text-decoration: none;
-    margin-top: 350px;
+    margin-top: 270px;
     font-family:'Fira Code', monospace;
     display: inline-flex;
     margin-right: 30px;
@@ -59,7 +82,7 @@ p {
     color: #00ff00;
     border-radius: 8px;
     font-weight: bolder;
-    transition: 0.3s;
+    transition: 0.8s;
     flex-direction: column; 
     
 
