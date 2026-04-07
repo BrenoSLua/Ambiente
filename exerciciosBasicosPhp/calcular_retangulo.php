@@ -8,9 +8,9 @@ $l2 = $_POST['l2'];
 
 $perimetro = 2 * ($l1 + $l2);
 
-echo "Sua área é:". $l1 * $l2;
+echo "<br><p class='resultado'>Sua área é: ". $l1 * $l2 ."</p>";
 
-echo "Seu perímetro é: $perimetro"
+echo "<br><p class='resultado'>Seu perímetro é: $perimetro</p>"
 
 
 

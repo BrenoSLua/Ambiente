@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calcule a áre ou perimetro do seu retângulo ou quadrado</title>
     <link  rel="stylesheet" href="calcular_retangulo.css">
-
 <body>
     <a class="voltar" href="exercicios_basicos_php.html"><-- Voltar</a>
 
@@ -15,15 +14,15 @@
     <form action="calcular_retangulo.php" method="post">
         <h1 class="t1">Calcule a área ou perimetro do seu Quadrado/retângulo</h1>
 
+    <div class="center">  
+        <br><br><label>Coloque o primeiro lado do Quadrado/Retâgulo</label>
+        <br><br><input type="number" step="any" name="l1" required>
 
-        <label>Coloque o primeiro lado do Quadrado/Retâgulo</label>
-        <input type="number" step="any" name="l1" required>
+        <br><br><label>Segundo lado do Quadrado/retângulo</label>
+        <br><br><input type="number" step="any" name="l2" required>
 
-        <label>Segundo lado do Quadrado/retângulo</label>
-        <input type="number" step="any" name="l2" required>
-
-        <input type="submit" value="Calcule">
-
+        <input class="enviar" type="submit" value="Calcule">
+    </div>  
 
 
     </form>
