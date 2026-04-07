@@ -8,13 +8,15 @@ $produto = $_POST['produto'];
 
 $entrega = $_POST['entrega'];
 
-$venda = $produto * (250/100);
-
-$fixo = $embalagem * $entrega;
-
 $custo = $embalagem + $produto + $entrega;
 
+$venda = $custo - $produto * (250/100);
+
+$fixo = $embalagem + $entrega;
+
 $lucro = $venda - $custo - $fixo;
+
+
 
 echo "<p class='resultado'>O seu custo é de: $custo" ;
 
