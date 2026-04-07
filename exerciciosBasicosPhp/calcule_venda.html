@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link  rel="stylesheet" href="calcule_venda.css">
+
 </head>
 <body>
 
@@ -12,6 +14,7 @@
 
 
     <form action="calcule_venda.php" method="post">
+    <div class="label">  
        <br> <br> <label>Quanto custa a embalagem do seu produto?</label>
         <input type="number" step="any" name="embalagem" required >
 
@@ -21,8 +24,8 @@
         <br> <br> <label>Quanto custa a entrega?</label>
         <input type="number"  step="any" name="entrega" required>
         
-        <br> <br> <input type="submit" value="Calcule">
-
+        <br> <br> <input class="enviar" type="submit" value="Calcule">
+    </div>  
 
 
 

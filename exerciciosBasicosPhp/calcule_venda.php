@@ -12,11 +12,15 @@ $venda = $produto * (250/100);
 
 $fixo = $embalagem * $entrega;
 
-$custo = $embalagem + $produto + $embalagem;
+$custo = $embalagem + $produto + $entrega;
 
 $lucro = $venda - $custo - $fixo;
 
-echo "O seu custo é de: $custo, sendo o $fixo seu custo fixo, e $lucro sendo o valor do lucro";
+echo "<p class='resultado'>O seu custo é de: $custo" ;
+
+echo "<p class='resultado'>sendo o $fixo seu custo fixo</p>" ;
+
+echo "<p class='resultado'>$lucro sendo o valor do lucro </p>";
 
 
 
