@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+
+
+
+body{
+     min-height: 100vh;
+    background: linear-gradient(to bottom, black, #001a00, black);
+}
+
+
+h1 {
+    font-family: 'JetBrains Mono', monospace;
+     text-transform: uppercase;
+     color: white;
+     text-align: center;
+     margin-top: 100px;
+}
+
+label{
+ text-align: center;
+    font-family: 'Fira Code', monospace;
+    font-size: 20;
+    color: #00ff00;
+}
