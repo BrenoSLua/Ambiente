@@ -1,4 +1,6 @@
 <?php
+include "LoginSenha.php";
+
     $senha = $_POST["senha"];
     $login = $_POST["login"];
 
