@@ -25,16 +25,14 @@ $history = isset($_POST['history']) ? floatval($_POST['history']) : 0;
 $media = ($math + $port + $ciencia + $history) / 4;
 
 if ($media >= 7){
-    echo "<br> <br > Você está: APROVADO";
+    echo "<p class='resultado'><br> <br > Você está: APROVADO</p>";
 }elseif($media <7 && $media >=4 ){
-    echo "<br> <br>Você está de: RECUPERAÇÃO";
+    echo "<p class='resultado'><br> <br>Você está de: RECUPERAÇÃO</p>";
 }else{
 
-    echo "<br> <br> Você está: REPROVADO";
+    echo "<p class='resultado'><br> <br> Você está: REPROVADO</p>";
 }
-
-
-echo "<br><br> Sua media é: ". $media;
+echo "<p class='resultado'><br><br> Sua media é: ". $media ."</p>";
 
 
 

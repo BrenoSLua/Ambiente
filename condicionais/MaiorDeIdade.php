@@ -5,17 +5,17 @@ $idade = $_POST['idade'];
 
 if (empty($idade)){
 
-    echo "Você não digitou sua idade";
+    echo "<p class='resultado'>Você não digitou sua idade</p>";
 
 }
 
 elseif ($idade >=18) {
 
-    echo "você é de maior";
+    echo "<p class='resultado'>você é de maior</p>";
 
 }
 else{
-    echo "Você é de menor";
+    echo "<p class='resultado'>Você é de menor</p>";
 }
 
 

@@ -4,23 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Notas.css">
 </head>
 <body>
+    <a class="voltar" href="condicionais.html"><--Voltar</a>
+
+    <h1>Média de nota.</h1>
+
+<div class="center">
     <form action="Notas.php" method="post">
-        <label>Sua nota em matemática:</label>
-        <input type="number" step="any" name="math">
-        <label>Sua nota em Portguês:</label>
-        <input type="number" step="any" name="port">
-        <label>Sua nota em ciências:</label>
+
+
+       <br> <br><label class="label">Sua nota em matemática:</label>
+       <input type="number" step="any" name="math">
+
+        <br><br><label class="label">Sua nota em Portguês:</label>
+         <input type="number" step="any" name="port">
+
+        <br><br><label class="label">Sua nota em ciências:</label>
         <input type="number" step="any" name="ciencia">
-        <label>Sua nota em história:</label>
+
+        <br><br><label class="label">Sua nota em história:</label>
         <input type="number" step="any" name="history">
 
-        <input type="submit">
+        <input class="enviar" type="submit">
 
     </form>
 
-
+</div>
 
     
 </body>
