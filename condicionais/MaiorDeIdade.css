@@ -27,6 +27,32 @@ p{
 }
 
 
+
+
+
+.voltar{
+       margin-top: 50px;
+    font-family:'JetBrains Mono', monospace;
+    display: inline-block;
+    text-align: right;
+    padding: 20px 20px;
+    background-color: #00CC00;
+    color: black;
+    border-radius: 8px;
+    font-weight: bolder;
+    transition: 0.7s;
+    text-decoration: none;
+    
+}
+
+.voltar:hover{
+      color: white;
+      background-color: black;
+}
+
+
+
+
 label {
    font-family: 'Fira Code', monospace;
     color: #00ff00;
