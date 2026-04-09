@@ -1,15 +1,15 @@
 <?php
-include "LoginSenha.php";
+
 
     $senha = $_POST["senha"];
     $login = $_POST["login"];
 
 
 if($login == "admin" && $senha == "senha123"){
-    echo "Acesso Liberado";
+    echo "<p class='resultado'>Acesso Liberado</p>";
 }else{
-    echo "Acesso Negado";
-    echo "<br><a href='atividade6.html'>Visite o Site</a>";
+    echo "<p calss='resultado'>Acesso Negado</p>";
+    echo "<p class='voltar'><br><a href='LoginSenha.html'>Visite o Site<a>";
 }
     
 

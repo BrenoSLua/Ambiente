@@ -1,0 +1,83 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+     min-height: 100vh;
+    background: linear-gradient(to bottom, black, #001a00, black);
+}
+
+
+
+h1 {
+    font-family: 'JetBrains Mono', monospace;
+     text-transform: uppercase;
+     color: white;
+     text-align: center;
+     margin-top: 100px;
+}
+
+p{
+    font-family: 'Fira Code', monospace;
+    text-transform: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+   
+}
+
+
+
+
+.voltar{
+       margin-top: 50px;
+    font-family:'JetBrains Mono', monospace;
+    display: inline-block;
+    text-align: right;
+    padding: 20px 20px;
+    background-color: #00CC00;
+    color: black;
+    border-radius: 8px;
+    font-weight: bolder;
+    transition: 0.7s;
+    text-decoration: none;
+    
+}
+
+.voltar:hover{
+      color: white;
+      background-color: black;
+}
+
+
+
+
+label {
+   font-family: 'Fira Code', monospace;
+    color: #00ff00;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.center{
+    text-align: center;
+}
+
+
+.enviar{
+    padding: 5px 5px ;
+    margin-top: 40px;
+}
+
+.resultado{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 20px;
+}
+

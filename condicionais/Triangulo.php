@@ -1,6 +1,6 @@
 <?php
 
-include "atividade8.html"; 
+include "Triangulo.html"; 
 
 $lado1 = $_POST['lado1'];
 $lado2 = $_POST['lado2'];
