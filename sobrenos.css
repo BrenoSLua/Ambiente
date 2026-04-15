@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Esse backgroun é pra deixar gradiante*/
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, black, #001a00, black);
+   
+    
+
+}
+
+
+
+
+
+h1 {
+    font-family: 'JetBrains Mono', monospace;
+     text-transform: uppercase;
+     color: white;
+}
+
+p{
+    font-family: 'Fira Code', monospace;
+    text-transform: none;
+    color: #00ff00;
+   
+}
+
+
+
+
+
+
+.fotos{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.breno {
+    
+   
+    gap: 80px;
+    margin-top: 100px;
+    padding: 0 20px;
+}
+
+.breno img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #009900;
+    
+}
+
+.breno:hover{
+    transform: scale(1.05);
+    
+
+
+}
+
+
+
+
+
+
+.ivan {
+    
+    gap: 80px;
+    margin-top: 100px;
+    padding: 0 20px;
+}
+
+.ivan img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #009900;
+    
+}
+
+.ivan:hover{
+    transform: scale(1.05);
+    
+
+
+}
+
+
+
+
+.cesar {
+    
+    gap: 80px;
+    margin-top: 100px;
+    padding: 0 20px;
+}
+
+.cesar img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #009900;
+    
+}
+
+.cesar:hover{
+    transform: scale(1.05);
+    
+
+
+}
+
+.nomes{
+    
+    font-size: 40px;
+    letter-spacing: 2px;
+    color:  white;
+    margin-top: 60px;
+    font-family: 'Fire Code', monospace;
+   transition: 0.7s;
+   text-decoration: none;
+
+   text-align: center;
+
+
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    
+    animation: digitar 2s steps(60) forwards;
+}
+
+@keyframes digitar {
+    from {
+        width: 10;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
+.nomes:hover{
+    color: #009900;
+
+}
+
+
