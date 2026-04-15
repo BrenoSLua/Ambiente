@@ -22,15 +22,42 @@ h1 {
     font-family: 'JetBrains Mono', monospace;
      text-transform: uppercase;
      color: white;
+     text-align: center;
+     margin-top: 50px;
 }
 
 p{
     font-family: 'Fira Code', monospace;
     text-transform: none;
-    color: #00ff00;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
    
 }
 
+
+
+
+.voltar{
+       margin-top: 50px;
+    font-family:'JetBrains Mono', monospace;
+    display: inline-block;
+    text-align: right;
+    padding: 20px 20px;
+    background-color: #00CC00;
+    color: black;
+    border-radius: 8px;
+    font-weight: bolder;
+    transition: 0.7s;
+    text-decoration: none;
+    
+}
+
+.voltar:hover{
+      color: white;
+      background-color: black;
+}
 
 
 
@@ -129,9 +156,9 @@ p{
     letter-spacing: 2px;
     color:  white;
     margin-top: 60px;
-    font-family: 'Fire Code', monospace;
+    font-family: 'Fira Code', monospace;
    transition: 0.7s;
-   text-decoration: none;
+   text-decoration: underline;
 
    text-align: center;
 
@@ -154,7 +181,7 @@ p{
 
 
 .nomes:hover{
-    color: #009900;
+    color: #00ff00;
 
 }
 
