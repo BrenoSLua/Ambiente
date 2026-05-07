@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="cem.css">
 
    
 </head>
 <body>
-    <h1>Soma dos 100 números.</h1>
+     <a class="voltar" href="repeticao.html"><-- Voltar</a>
+    <h1>Soma dos 100 números</h1>
+    <p>Iremos somar os próximos 100 números </p>
 
     <form action="cem.php" method="post";>
 
         <label class="test" for="num">Coloca um número aqui: </label>
-        <input type="number" step="any" name ="texNum">
+        <input type="number" step="any" name ="texNum" required>
 
-        <input type="submit" name="enviar" value="enviar">
+        <input class="enviar" type="submit" value="enviar">
 
     </form>
     </form>

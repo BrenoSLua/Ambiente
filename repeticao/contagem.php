@@ -7,7 +7,7 @@ $texNum = $_POST['texNum'];
 
 $i = 0 ;
 while( $i < $texNum){
-    echo $i."<br>";
+    echo "<p class = 'resultado'>". $i ."<br></p>";
     $i++;
 }
 

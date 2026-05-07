@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+     min-height: 100vh;
+    background: linear-gradient(to bottom, black, #001a00, black);
+}
+
+
+
+h1 {
+    font-family: 'JetBrains Mono', monospace;
+     text-transform: uppercase;
+     color: white;
+     text-align: center;
+     margin-top: 100px;
+}
+
+
+.voltar{
+    margin-top: 50px;
+    font-family:'JetBrains Mono', monospace;
+    display: inline-block;
+        
+    padding: 20px 20px;
+    background-color: #00CC00;
+    color: black;
+    border-radius: 8px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.7s;
+    
+
+}
+
+.voltar:hover{
+    color: white;
+    background-color: black ;
+}
+
+
+
+.p{
+    font-family: 'Fira Code', monospace;
+    text-transform: none;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 100px;
+}
+
+
+
+.condicionais{
+    text-align: center;
+}
+
+.exercicios{
+    text-decoration: none;
+    margin-top: 270px;
+    font-family:'Fira Code', monospace;
+    display: inline-flex;
+    margin-right: 30px;
+    padding: 20px 20px;
+    background-color: black;
+    color: #00ff00;
+    border-radius: 8px;
+    font-weight: bolder;
+    transition: 0.8s;
+    flex-direction: column; 
+    font-size: 17px;
+
+}
+
+
+.exercicios:hover{
+      color: black;
+     background-color: #00ff00;
+     
+}
+
+
