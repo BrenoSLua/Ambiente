@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora (Escolha sua operação)</h1>
+
+    <form action="operador.php" method="post">
+        <label>Digite o primeiro número:</label>
+       <br> <input type="number" step="any" name="n1" required>
+        
+        <br><br> <label>Digite o segundo número:</label>
+       <br>  <input type="number" step="any" name="n2" required>
+
+       <br><br> <label>Coloque a operação a qual você deseja  (+. -, ( '/' Divisão), ( '*' Multiplicação), %)</label>
+      <br><input type="text"  name="op" required>
+
+        <br><br><input type="submit">
+
+    </form>
+</body>
+</html>
