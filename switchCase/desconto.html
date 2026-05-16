@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-
+<div class="tabela">
     <table align="center" width='500px' border="1px">
         <tr>
             <td>Código</td>
@@ -35,18 +35,19 @@
             <td>120,00</td>
         </tr>
     </table>
+</div>
+
+<div class="center">
     <form action="desconto.php" method="post">
-        <label>Quantas canetas: </label>
-        <input type="number" name="Caneta" required>
+        <label>Código do produto que deseja:</label>
+        <input type="number" name="cod" required>
 
-        <label>Quantos cadernos: </label>
-        <input type="number" name="Caderno" required>
+        <label>Quantidade:</label>
+        <input type="number" name="quantidade" required>
 
-        <label>Quantas mochilas: </label>
-        <input type="number" name="Mochila" required>
-
-        <input type="submit">
-
+        
+        <input type="submit" value="Enviar">
+</div>
 
 
     </form>
