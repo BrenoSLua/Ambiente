@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Pagamento do estacionamento</h1>
+
+    <form action="estacionamento.php" method="post">
+      <br><br><label>Escolha o vaículo: </label>
+    <select name="veiculo">
+
+        <option value="carro">Carro</option>
+        <option value="moto">moto</option>
+        <option value="caminhão">caminhão</option>
+    </select>
+
+     <br> <br>  <label>Tipo de vaga:</label>
+    <select name="vaga">
+
+        <option value="vip">Vip</option>
+        <option value="normal">Normal</option>
+      
+    </select>
+
+      <br> <br> <label>Tipo de plano:</label>
+     <select name="plano">
+
+        <option value="horas">horas</option>
+        <option value="diario">Diário</option>
+        <option value="mensal">Mensal</option>
+      
+    </select>
+    <br> <br><label>Tempo</label>
+    <input type="number" name="time">
+
+
+     <br> <br><input type="submit" name="Enviar" value="Enviar">
+    </form>
+</body>
+</html>

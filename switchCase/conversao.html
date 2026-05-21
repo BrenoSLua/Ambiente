@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="conversao.css">
+</head>
+<body>
+    <a class="voltar" href="swi.html"><-- Voltar</a>
+    <h1>Conversor de Unidades</h1>
+
+    <p>1 --> Celsius para Fahrenheit</p>
+    <p>2 --> Fahrenheit para Celsius </p>
+    <p>3 --> Km para milhas</p>
+    <p>4 --> Milhas para Km</p>
+    <p>5 --> Kg para Libras</p>
+    <p>6 --> Libras para Kg</p>
+
+<div class="center">
+
+    <form action="conversao.php" method="post">
+        <label>Selecione um valor:</label>
+        <input type="number" step="any" name="valor">
+        <label>Selecione a conversão:</label>
+        <input type="number"  name="con">
+        <input type="submit" value="Enviar">
+          </form>
+
+</div>
+</body>
+</html>
