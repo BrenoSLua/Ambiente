@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estacionamento.css"
 </head>
 <body>
 
+    <a class="voltar" href="swi.html"><-- Voltar</a>
+
+ <div class="center">
     <h1>Pagamento do estacionamento</h1>
 
     <form action="estacionamento.php" method="post">
@@ -15,13 +19,13 @@
 
         <option value="carro">Carro</option>
         <option value="moto">moto</option>
-        <option value="caminhão">caminhão</option>
+        <option value="caminhao">caminhão</option>
     </select>
 
      <br> <br>  <label>Tipo de vaga:</label>
     <select name="vaga">
 
-        <option value="vip">Vip</option>
+        
         <option value="normal">Normal</option>
       
     </select>
@@ -40,5 +44,10 @@
 
      <br> <br><input type="submit" name="Enviar" value="Enviar">
     </form>
+</div>
+
+
+
+
 </body>
 </html>
