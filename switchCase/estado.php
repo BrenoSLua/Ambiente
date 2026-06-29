@@ -6,91 +6,90 @@ $estado = $_POST['estado'];
 
 switch($estado){
     case $estado>=1 and $estado<=10: // Essa parte se chama 'deem'
-        echo 'Sei lá, sp?'; 
+        echo '<p>Sei lá, sp?</p>'; 
         break;
     case 11:
-        echo 'RO';
+        echo '<p>RO</p>';
         break;
     case 12:
-        echo 'AC';
+        echo '<p>AC</p>';
         break;
     case 13:
-        echo 'AM';
+        echo '<p>AM</p>';
         break;
     case 14:
-        echo 'RR';
+        echo '<p>RR</p>';
         break;
     case 15:
-        echo 'PA';
+        echo '<p>PA</p>';
         break;
     case 16:
-        echo 'AP';
+        echo '<p>AP</p>';
         break;
     case 17:
-        echo 'TO';
+        echo '<p>TO</p>';
         break;
     case 21:
-        echo 'MA';
+        echo '<p>MA</p>';
         break;
     case 22:
-        echo 'PI';
+        echo '<p>PI</p>';
         break;
     case 23:
-        echo 'CE';
+        echo '<p>CE</p>';
         break;
     case 24:
-        echo 'RN';
+        echo '<p>RN</p>';
         break;
     case 25:
-        echo 'PB';
         break;
     case 26:
-        echo 'PE';
+        echo '<p>PE</p>';
         break;
     case 27:
-        echo 'AL';
+        echo '<p>AL</p>';
         break;
     case 28:
-        echo 'se';
+        echo '<p>se</p>';
         break;
     case 29:
-        echo 'BA';
+        echo '<p>BA</p>';
         break;
     case 31:
-        echo 'MG';
+        echo '<p>MG</p>';
         break;
     case 32:
-        echo 'ES';
+        echo '<p>ES</p>';
         break;
     case 33:
-        echo 'RJ';
+        echo '<p>RJ</p>';
         break;
     case 34:
-        echo 'SP';
+        echo '<p>SP</p>';
         break;
     case 41:
-        echo 'PR';
+        echo '<p>PR</p>';
         break;
     case 42:
-        echo 'SC';
+        echo '<p>SC</p>';
         break;
     case 43:
-        echo 'SC';
+        echo '<p>SC</p>';
         break;
     case 50:
-        echo 'MS';
+        echo '<p>MS</p>';
         break;
     case 51:
-        echo 'MT';
+        echo '<p>MT</p>';
         break;
     case 52:
-        echo 'GO';
+        echo '<p>GO</p>';
         break;
     case 53:
-        echo 'DF';
+        echo '<p>DF</p>';
         break;
     default:
-        echo "opção sei lá";
+        echo "<p>opção sei lá</p>";
     break;
 }
 

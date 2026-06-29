@@ -7,20 +7,30 @@
     <link rel="stylesheet" href="estado.css">
 </head>
 <body>
+
+    <a class="voltar" href="swi.html"><-- Voltar</a>
+
+
+
     <h1>Calculadora (Escolha sua operação)</h1>
 
+
+
+
+<div class="center">
     <form action="operador.php" method="post">
-        <label>Digite o primeiro número:</label>
-       <br> <input type="number" step="any" name="n1" required>
+        <br><label>Digite o primeiro número:</label>
+       <br><input type="number" step="any" name="n1" required>
         
         <br><br> <label>Digite o segundo número:</label>
        <br>  <input type="number" step="any" name="n2" required>
 
-       <br><br> <label>Coloque a operação a qual você deseja  (+. -, ( '/' Divisão), ( '*' Multiplicação), %)</label>
+       <br><br> <label>Coloque a operação a qual você deseja  (+, -, / (Divisão), * (Multiplicação), %)</label>
       <br><input type="text"  name="op" required>
 
         <br><br><input type="submit">
 
     </form>
+</div>
 </body>
 </html>

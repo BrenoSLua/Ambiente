@@ -8,19 +8,19 @@ $op = $_POST['op'];
 
 switch($n1 and $n2){
     case $op == '+':
-        echo $n1 + $n2;
+        echo "<p>".$n1 + $n2."</p>";
         break;
     case $op == '*':
-        echo $n1 * $n2;
+        echo "<p>".$n1 * $n2."</p>";
         break;
     case $op == '/':
-        echo $n1 / $n2;
+        echo "<p>". $n1 / $n2."</p>";
         break; 
     case $op == '%':
-        echo ($n1 / 100) * $n2; 
+        echo "<p>"($n1 / 100) * $n2."</p>"; 
         break;
     default:
-        echo "Operação inválida";
+        echo "<p>Operação inválida</p>";
         break;
 
 
