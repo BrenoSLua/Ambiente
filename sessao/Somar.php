@@ -16,7 +16,7 @@
         $_SESSION['number']=0;
     }
      
-     echo $_SESSION['number'];
+     echo "<p>".$_SESSION['number']."</p>";
     
     
 

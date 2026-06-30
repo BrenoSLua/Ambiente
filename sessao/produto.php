@@ -14,7 +14,7 @@ $produto = $_POST['produto'];
 $_SESSION['lista'][] = $produto;
 
 foreach($_SESSION['lista'] as $objt){
-    echo "<br>".$objt;
+    echo "<p><br>".$objt."</p>";
 }
 
 
